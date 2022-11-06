@@ -5,8 +5,610 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotflix</title>
+    
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+
+    <header id="header">
+        
+        <div class="container_head">
+            <div class="logo">
+                <a href="index.html"><img src="./assets/logo.svg" alt=""></a>
+            </div>
     
+            
+                <nav class="d_none">
+                    <ul>
+                        <li><span><a href="#">HOME <span class="down_icon"><i class="fa-solid fa-chevron-down"></i></span></span></a>
+                            <ul>
+                                <li><a href="#" >Style 1</a></li>
+                                <li><a href="#">Style 2</a></li>
+                                <li><a href="#">Style 3</a></li>
+                            </ul>
+                        </li>
+                        <li><span><a href="#">CATALOG <span class="down_icon"><i  class="fa-solid fa-chevron-down"></i></span></a></span>
+                            <ul>
+                                <li><a href="#">Catalog style 1</a></li>
+                                <li><a href="#">Catalog style 2</a></li>
+                                <li><a href="#">Details style 1</a></li>
+                                <li><a href="#">Details style 2</a></li>
+                            </ul>
+                        </li>
+                        <li><span><a href="#">PRICING PLAN</a></span></li>
+                        <li><span><a href="#"><span class="down_icon"><i class="more fa-solid fa-caret-down"></i></span></a></span>
+                            <ul>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Profile</a></li>
+                                <li><a href="#">Contacts</a></li>
+                                <li><a href="#">Help center</a></li>
+                                <li><a href="#">Privacy policy</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+    
+            <div class="info d_none" >
+    
+                <input class="d_none" type="search" id="search" placeholder="Search...">
+                <label class="d_none" for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
+    
+                <ul class="d_none">
+                    <li><a href="">En <span class="down_icon"><i class="fa-solid fa-chevron-down"></i></span></a>
+                        <ul>
+                            <li><a href="#">English</a></li>
+                            <li><a href="#">Spanish</a></li>
+                            <li><a href="#">Shqip</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+    
+            <button class="d_none">SIGN IN</button>
+    
+            <button class="mobile_menu">
+                <a href="#" class="mobile-menu-icon"><i class="fa-solid fa-bars"></i></a>
+            </button>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="title">
+                <h1>NEW ITEMS <span>OF THIS SEASON</span></h1>
+    
+                <ul>
+                    <li><i class="fa-solid fa-arrow-left"></i></li>
+                    <li><i class="fa-solid fa-arrow-right"></i></li>
+                </ul>
+            </div>
+    
+            <div class="items">
+    
+                <div class="item">
+                    <p>8.4</p>
+                    <div class="middle d_none">
+                        <div class="icon d_none"><a href="#"><i class="fa-solid fa-play"></i></a></div>
+                    </div>
+                    <a href="#"><img src="./assets/cover.jpg" alt=""></a>
+                    
+                    <h3>I Dream</h3>
+                    <a href="#">Action,</a>
+                    <a href="#">Triler</a>
+                </div>
+            
+                <div class="item">
+                    <p>8.4</p>
+                    <div class="middle d_none">
+                        <div class="icon d_none"><a href="#"><i class="fa-solid fa-play"></i></a></div>
+                    </div>
+                    <a href="#"><img src="./assets/cover2.jpg" alt=""></a>
+                    
+                    <h3>Benched</h3>
+                    <a href="#">Comedy</a>
+                </div>
+    
+                <div class="item d_none">
+                    <p>8.4</p>
+                    <div class="middle">
+                        <div class="icon"><a href="#"><i class="fa-solid fa-play"></i></a></div>
+                    </div>
+                    <a href="#"><img src="./assets/cover3.jpg" alt=""></a>
+                    
+                    <h3>Whitney</h3>
+                    <a href="#">Romance,</a>
+                    <a href="#">Drama</a>
+                </div>
+    
+                <div class="item d_none">
+                    <p>8.4</p>
+                    <div class="middle">
+                        <div class="icon"><a href="#"><i class="fa-solid fa-play"></i></a></div>
+                    </div>
+                    <a href="#"><img src="./assets/cover4.jpg" alt=""></a>
+                    
+                    <h3>Blindspotting</h3>
+                    <a href="#">Comedy,</a>
+                    <a href="#">Drama</a>
+                </div>
+    
+                <div class="item d_none">
+                    <p>8.4</p>
+                    <div class="middle">
+                        <div class="icon"><a href="#"><i class="fa-solid fa-play"></i></a></div>
+                    </div>
+                    <a href="#"><img src="./assets/cover5.jpg" alt=""></a>
+                    
+                    <h3>Blindspotting</h3>
+                    <a href="#">Comedy,</a>
+                    <a href="#">Drama</a>
+                </div>
+    
+            </div>
+        </div>
+
+    </main>
+
+    <section class="new_items">
+
+        <div class="container">
+
+            <div class="content">
+                <h1>New items</h1>
+
+                <ul>
+                    <li class="active"><a href="#" class="active">NEW RELEASES</a></li>
+                    <li><a href="#">MOVIES</a></li>
+                    <li><a href="#">TV SERIES</a></li>
+                    <li><a href="#">CARTOONS</a></li>
+                </ul>
+            </div>
+            
+
+                <div class="items">
+
+                    <div class="item">
+                        <p>8.4</p>
+                        <div class="middle d_none">
+                            <div class="icon d_none">
+                                <a href="#"><i class="fa-solid fa-play"></i></a>
+                            </div>
+                        </div>
+                        <a href="#"><img src="./assets/cover.jpg" alt=""></a>
+                        <h3>I Dream</h3>
+                        <a href="#">Action,</a>
+                        <a href="#">Triler</a>
+                    </div>
+
+                    <div class="item">
+                        <p>8.4</p>
+                        <div class="middle d_none">
+                            <div class="icon d_none">
+                                <a href="#"><i class="fa-solid fa-play"></i></a>
+                            </div>
+                        </div>
+                        <a href="#"><img src="./assets/cover2.jpg" alt=""></a>
+                        <h3>Benched</h3>
+                        <a href="#">Comedy</a>
+                    </div>
+
+                    <div class="item">
+                        <p>8.4</p>
+                        <div class="middle d_none">
+                            <div class="icon d_none">
+                                <a href="#"><i class="fa-solid fa-play"></i></a>
+                            </div>
+                        </div>
+                        <a href="#"><img src="./assets/cover3.jpg" alt=""></a>
+                        <h3>Whitney</h3>
+                        <a href="#">Romance,</a>
+                        <a href="#">Drama</a>
+                    </div>
+
+                    <div class="item">
+                        <p>8.4</p>
+                        <div class="middle d_none">
+                            <div class="icon d_none">
+                                <a href="#"><i class="fa-solid fa-play"></i></a>
+                            </div>
+                        </div>
+                        <a href="#"><img src="./assets/cover4.jpg" alt=""></a>
+                        <h3>Blindspotting</h3>
+                        <a href="#">Comedy,</a>
+                        <a href="#">Drama</a>
+                    </div>
+
+                    <div class="item">
+                        <p>8.4</p>
+                        <div class="middle d_none">
+                            <div class="icon d_none">
+                                <a href="#"><i class="fa-solid fa-play"></i></a>
+                            </div>
+                        </div>
+                        <a href="#"><img src="./assets/cover5.jpg" alt=""></a>
+                        <h3>I Dream</h3>
+                        <a href="#">Action,</a>
+                        <a href="#">Triler</a>
+                    </div>
+
+                    <div class="item">
+                        <p>8.4</p>
+                        <div class="middle d_none">
+                            <div class="icon d_none">
+                                <a href="#"><i class="fa-solid fa-play"></i></a>
+                            </div>
+                        </div>
+                        <a href="#"><img src="./assets/cover6.jpg" alt=""></a>
+                        <h3>Benched</h3>
+                        <a href="#">Comedy</a>
+                    </div>
+
+                    <div class="item">
+                        <p>8.4</p>
+                        <div class="middle d_none">
+                            <div class="icon d_none">
+                                <a href="#"><i class="fa-solid fa-play"></i></a>
+                            </div>
+                        </div>
+                        <a href="#"><img src="./assets/cover7.jpg" alt=""></a>
+                        <h3>Benched</h3>
+                        <a href="#">Comedy</a>
+                    </div>
+
+                    <div class="item">
+                        <p>8.4</p>
+                        <div class="middle d_none">
+                            <div class="icon d_none">
+                                <a href="#"><i class="fa-solid fa-play"></i></a>
+                            </div>
+                        </div>
+                        <a href="#"><img src="./assets/cover8.jpg" alt=""></a>
+                        <h3>I Dream</h3>
+                        <a href="#">Action,</a>
+                        <a href="#">Triler</a>
+                    </div>
+
+                    <div class="item">
+                        <p>8.4</p>
+                        <div class="middle d_none">
+                            <div class="icon d_none">
+                                <a href="#"><i class="fa-solid fa-play"></i></a>
+                            </div>
+                        </div>
+                        <a href="#"><img src="./assets/cover9.jpg" alt=""></a>
+                    
+                        <h3>Blindspotting</h3>
+                        <a href="#">Comedy,</a>
+                        <a href="#">Drama</a>
+                    </div>
+
+                <div class="item">
+                    <p>8.4</p>
+                        <div class="middle d_none">
+                            <div class="icon d_none">
+                                <a href="#"><i class="fa-solid fa-play"></i></a>
+                            </div>
+                        </div>
+                        <a href="#"><img src="./assets/cover10.jpg" alt=""></a>
+                    <h3>Whitney</h3>
+                    <a href="#">Romance,</a>
+                    <a href="#">Drama</a>
+                </div>
+
+                    <div class="item">
+                        <p>8.4</p>
+                        <div class="middle d_none">
+                            <div class="icon d_none">
+                                <a href="#"><i class="fa-solid fa-play"></i></a>
+                            </div>
+                        </div>
+                        <a href="#"><img src="./assets/cover11.jpg" alt=""></a>
+                        <h3>Benched</h3>
+                        <a href="#">Comedy</a>
+                    </div>
+
+                    <div class="item">
+                        <p>8.4</p>
+                        <div class="middle d_none">
+                            <div class="icon d_none">
+                                <a href="#"><i class="fa-solid fa-play"></i></a>
+                            </div>
+                        </div>
+                        <a href="#"><img src="./assets/cover12.jpg" alt=""></a>
+                        <h3>I Dream</h3>
+                        <a href="#">Action,</a>
+                        <a href="#">Triler</a>
+                    </div>
+
+                    <div class="item">
+                        <p>8.4</p>
+                        <div class="middle d_none">
+                            <div class="icon d_none">
+                                <a href="#"><i class="fa-solid fa-play"></i></a>
+                            </div>
+                        </div>
+                        <a href="#"><img src="./assets/cover13.jpg" alt=""></a>
+                        <h3>I Dream</h3>
+                        <a href="#">Action,</a>
+                        <a href="#">Triler</a>
+                    </div>
+
+                    <div class="item">
+                        <p>8.4</p>
+                        <div class="middle d_none">
+                            <div class="icon d_none">
+                                <a href="#"><i class="fa-solid fa-play"></i></a>
+                            </div>
+                        </div>
+                        <a href="#"><img src="./assets/cover14.jpg" alt=""></a>
+                        <h3>Benched</h3>
+                        <a href="#">Comedy</a>
+                    </div>
+
+                    <div class="item">
+                        <p>8.4</p>
+                        <div class="middle d_none">
+                            <div class="icon d_none">
+                                <a href="#"><i class="fa-solid fa-play"></i></a>
+                            </div>
+                        </div>
+                        <a href="#"><img src="./assets/cover15.jpg" alt=""></a>
+                        <h3>Whitney</h3>
+                        <a href="#">Romance,</a>
+                        <a href="#">Drama</a>
+                    </div>
+
+                    <div class="item">
+                        <p>8.4</p>
+                        <div class="middle d_none">
+                            <div class="icon d_none">
+                                <a href="#"><i class="fa-solid fa-play"></i></a>
+                            </div>
+                        </div>
+                        <a href="#"><img src="./assets/cover16.jpg" alt=""></a>
+                        <h3>Blindspotting</h3>
+                        <a href="#">Comedy,</a>
+                    <a href="#">Drama</a>
+                </div>
+
+                <div class="item">
+                    <p>8.4</p>
+                        <div class="middle d_none">
+                            <div class="icon d_none">
+                                <a href="#"><i class="fa-solid fa-play"></i></a>
+                            </div>
+                        </div>
+                        <a href="#"><img src="./assets/cover17.jpg" alt=""></a>
+                    <h3>I Dream</h3>
+                    <a href="#">Action,</a>
+                    <a href="#">Triler</a>
+                </div>
+
+                <div class="item">
+                    <p>8.4</p>
+                        <div class="middle d_none">
+                            <div class="icon d_none">
+                                <a href="#"><i class="fa-solid fa-play"></i></a>
+                            </div>
+                        </div>
+                        <a href="#"><img src="./assets/cover18.jpg" alt=""></a>
+                    <h3>Benched</h3>
+                    <a href="#">Comedy</a>
+                </div>
+
+                </div>
+        </div>
+
+    </section>
+
+    <section class="expected_premiere">
+
+        <div class="container">
+            <div class="title">
+                <h1>Expected premiere</h1>
+    
+                <ul>
+                    <li><button>View All</button></li>
+                    <li><i class="fa-solid fa-angle-left"></i></li>
+                    <li><i class="fa-solid fa-angle-right"></i></li>
+                </ul>
+            </div>
+    
+            <div class="items">
+    
+                <div class="item">
+                    <p>8.4</p>
+                    <div class="middle d_none">
+                        <div class="icon d_none">
+                            <a href="#"><i class="fa-solid fa-play"></i></a>
+                        </div>
+                    </div>
+                    <a href="#"><img src="./assets/cover.jpg" alt=""></a>
+                    <h3>I Dream</h3>
+                    <a href="#">Action,</a>
+                    <a href="#">Triler</a>
+                </div>
+    
+                <div class="item">
+                    <p>8.4</p>
+                    <div class="middle d_none">
+                        <div class="icon d_none">
+                            <a href="#"><i class="fa-solid fa-play"></i></a>
+                        </div>
+                    </div>
+                    <a href="#"><img src="./assets/cover2.jpg" alt=""></a>
+                    <h3>Benched</h3>
+                    <a href="#">Comedy</a>
+                </div>
+    
+                <div class="item">
+                    <p>8.4</p>
+                    <div class="middle d_none">
+                        <div class="icon d_none">
+                            <a href="#"><i class="fa-solid fa-play"></i></a>
+                        </div>
+                    </div>
+                    <a href="#"><img src="./assets/cover3.jpg" alt=""></a>
+                    <h3>Whitney</h3>
+                    <a href="#">Romance,</a>
+                    <a href="#">Drama</a>
+                </div>
+    
+                <div class="item">
+                    <p>8.4</p>
+                    <div class="middle d_none">
+                        <div class="icon d_none">
+                            <a href="#"><i class="fa-solid fa-play"></i></a>
+                        </div>
+                    </div>
+                    <a href="#"><img src="./assets/cover4.jpg" alt=""></a>
+                    <h3>Blindspotting</h3>
+                    <a href="#">Comedy,</a>
+                    <a href="#">Drama</a>
+                </div>
+    
+                <div class="item">
+                    <p>8.4</p>
+                    <div class="middle d_none">
+                        <div class="icon d_none">
+                            <a href="#"><i class="fa-solid fa-play"></i></a>
+                        </div>
+                    </div>
+                    <a href="#"><img src="./assets/cover5.jpg" alt=""></a>
+                    <h3>I Dream</h3>
+                    <a href="#">Action,</a>
+                    <a href="#">Triler</a>
+                </div>
+    
+                <div class="item">
+                    <p>8.4</p>
+                    <div class="middle d_none">
+                        <div class="icon d_none">
+                            <a href="#"><i class="fa-solid fa-play"></i></a>
+                        </div>
+                    </div>
+                    <a href="#"><img src="./assets/cover6.jpg" alt=""></a>
+                    <h3>Benched</h3>
+                    <a href="#">Comedy</a>
+                </div>
+    
+            </div>
+        </div>
+
+    </section>
+
+    <section class="pricing_plan">
+
+        <div class="container">
+            <div class="description">
+                <h1>HotFlix – Best Place for Movies</h1>
+    
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+                <p>Content here, content here, making it look like <a href="#">readable</a> English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+    
+            </div>
+    
+            <div class="cards">
+                
+                <div class="card">
+                    <div class="price">
+                        <h3>Basic</h3>
+                        <h3 class="free">Free</h3>
+                    </div>
+    
+                    <div class="plan">
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i> 7 days</li>
+                            <li><i class="fa-solid fa-check"></i> 720p Resolution</li>
+                            <li><i class="fa-solid fa-xmark"></i> Limited Availability</li>
+                            <li><i class="fa-solid fa-xmark"></i> Desktop Only</li>
+                            <li><i class="fa-solid fa-xmark"></i> Limited Support</li>
+                        </ul>
+                    </div>
+    
+                    <div class="choose">
+                        <button>CHOOSE PLAN</button>
+                    </div>
+                </div>
+    
+                <div class="card premium">
+                    <div class="price">
+                        <h3>Premium</h3>
+                        <h3 class="premium">$39.99 <span>/month</span></h3>
+                    </div>
+    
+                    <div class="plan">
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i> 1 Month</li>
+                            <li><i class="fa-solid fa-check"></i> Ful HD</li>
+                            <li><i class="fa-solid fa-check"></i> Lifetime Availability</li>
+                            <li><i class="fa-solid fa-xmark"></i> TV & Desktop</li>
+                            <li><i class="fa-solid fa-xmark"></i> 24/7 Support</li>
+                        </ul>
+                    </div>
+    
+                    <div class="choose">
+                        <button class="premium">CHOOSE PLAN</button>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <div class="price">
+                        <h3>Cinematic</h3>
+                        <h3 class="cinematic">$49.99 <span>/month</span></h3>
+                    </div>
+    
+                    <div class="plan">
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i> 2 Month</li>
+                            <li><i class="fa-solid fa-check"></i> Ultra HD</li>
+                            <li><i class="fa-solid fa-check"></i> Lifetime Availability</li>
+                            <li><i class="fa-solid fa-check"></i> Any Device</li>
+                            <li><i class="fa-solid fa-check"></i> 24/7 Support</li>
+                        </ul>
+                    </div>
+    
+                    <div class="choose">
+                        <button>CHOOSE PLAN</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="container">
+
+            <div class="footer_content">
+
+                <div class="logo">
+                    <a href="index.html"><img src="./assets/logo.svg" alt=""></a>
+                </div>
+    
+                <div class="copyright">
+                    <p>&copy; HOTFLIX, 2022-2023</p>
+                    <p>Create by <a href="https://github.com/BeratBajraktari">Berat Bajraktari</a></p>
+                </div>
+    
+            </div>
+    
+            <div class="footer_nav">
+    
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                </ul>
+    
+                <a href="#" class="top"><i class="fa-solid fa-arrow-up"></i></a>
+    
+            </div>
+
+        </div>
+    </footer>
 </body>
 </html>
