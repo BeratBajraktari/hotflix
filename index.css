@@ -171,6 +171,11 @@ button:hover {
 
 button.mobile_menu {
     display: none;
+    border: none;
+}
+
+button.mobile_menu a i {
+    color: var(--primary-color);
 }
 
 /* ----------------------- End header ----------------------- */
@@ -606,7 +611,7 @@ div.footer_nav a.top:hover {
     section div.items,
     main div.items {
         display: grid;
-        gap: 75px;
+        gap: 70px;
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -638,6 +643,6 @@ div.footer_nav a.top:hover {
 
     footer div.container {
         flex-direction: column;
-        margin-top: 10px;
+        margin: 10px 0;
     }
 }
